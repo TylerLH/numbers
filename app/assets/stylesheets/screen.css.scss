@@ -1,0 +1,28 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass";
+
+// bootstrap variables
+$baseFontFamily: "BebasNeue", Arial, sans-serif;
+$textColor: #fff;
+$linkColor: #439fea;
+
+$baseFontSize: 36px;
+$baseLineHeight: 42px;
+
+@import "bootstrap";
+@import "main";
+
+h1 {
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+
+body {
+	@include background-image(linear-gradient($green,adjust-hue($green,10)));
+	//background: url(/count.png) no-repeat;
+	background-attachment: fixed;
+}
