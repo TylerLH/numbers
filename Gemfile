@@ -9,6 +9,7 @@ gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.g
 gem 'font-awesome-sass-rails'
 gem 'slim-rails'
 gem 'thin'
+gem 'simple_form'
 
 
 # Gems used only for assets and not required

@@ -3,7 +3,7 @@ class MainController < ApplicationController
   end
 
   def count
-  	@ceiling = params[:ceiling].to_i
+  	@ceiling = params[:count][:ceiling].to_i
   	@numbers = []
 	# iterate over params[:ceiling] to find multiples of 3, 5, and both
 	@ceiling.times do |i|

@@ -1,1 +1,6 @@
-h1 hulllooooo
+h1 Counting with the Count
+
+= simple_form_for "count", :url => "/count" do |f|
+	= f.input "ceiling", :label => false, :input_html => { :placeholder => "" }, :hint => "What shall we count to?", :hint_html => { :class => "help-inline" }, :required => true
+	button.btn.btn-primary(type="submit")
+		| Count some numbers

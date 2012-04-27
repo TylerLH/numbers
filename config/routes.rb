@@ -1,6 +1,6 @@
 Numbers::Application.routes.draw do
 
-  match '/count/:ceiling' => "main#count", :as => :count
+  match '/count' => "main#count", :as => :count
   
   root :to => "main#index"
 
